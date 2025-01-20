@@ -1,0 +1,83 @@
+ul{
+    margin-top:10px;
+    list-style-type:none;
+    height:600px;
+    background-color:white;
+    width:900px;
+    border-radius:11px;
+    padding:10px;
+}
+.listitem{
+    
+    color:#2C2C2C;
+    font-weight:500;
+    font-size:15px;
+    margin-top:10px;
+    height:auto;
+    width:auto;
+    border:1px solid #2C2C2C;
+    padding:10px 15px;
+    border-radius: 11px;
+    margin-bottom:10px;
+    justify-content: space-between;
+    display:column;
+    background-color: azure;
+    
+}
+.update{ 
+    height:22px;
+    width:22px;
+    margin-left:50rem;
+    cursor: pointer;
+
+}
+.delete{
+    height:22px;
+    width:22px;
+    cursor: pointer;
+}
+li img{
+    gap:20px;
+}
+.starttimer_btn{
+    margin-left:10px;
+    margin-right:8px;
+    border:none;
+    padding: 6px 10px;
+    border-radius:5px;
+    background-color: cadetblue;
+}
+.stoptimer_btn{
+    margin-left:10px;
+    margin-right:10px;
+    border:none;
+    padding: 6px 10px;
+    border-radius:5px;
+    background-color: cadetblue;
+    
+
+}
+.timer_icon{
+    color: rgb(59, 59, 55);
+    height:50px;
+    width:33px;
+    margin-right:10px;
+}
+#text{
+    font-size: 20px;
+}
+/* .display_time{
+    height:50px; 
+} */
+.rr1{
+    margin-right:40px;
+}
+.rr2{
+    margin-right:60px;
+}
+.wrapper_timer{
+    display: flex;
+}
+.timer_digit{
+    font-size:25px;
+}
